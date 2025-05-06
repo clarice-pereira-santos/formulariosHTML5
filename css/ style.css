@@ -1,13 +1,11 @@
 :root{
-    --background-color:pink;
-    --text-color:blue;
-
+    --background-color:rgb(218, 38, 68);
+    --text-color:rgb(12, 12, 226);
 }
 
 *{ 
     margin: 0;
     padding: 0;
-
 }
 
 body{
@@ -15,4 +13,9 @@ body{
     height: 100vh;
     background-color: var(--background-color);
     color:var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
