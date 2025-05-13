@@ -47,6 +47,10 @@ form{
     width: 40%;
 }
  
+form a:hover{
+    border-bottom: 1px solid var(--text-color);
+
+}
 input{
     width: 100%;
     position: relative;
