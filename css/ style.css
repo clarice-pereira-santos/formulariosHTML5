@@ -50,7 +50,7 @@ form{
 form a { 
     text-decoration: nome;
     padding: 0.2rem;
-    color: var (--text-color)
+    color: var (--text-color);
 }
 form a:hover{
     border-bottom: 1px solid var(--text-color);
